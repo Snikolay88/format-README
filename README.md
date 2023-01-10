@@ -457,3 +457,50 @@ ____
 
 [:arrow_up:Оглавление](#Оглавление) 
 ____
+
+____
+## Диаграмм Mermaid.js
+Появилась возможность вставлять диаграммы [Mermaid.js](https://mermaid-js.github.io/mermaid/#/)
+
+<pre>
+```mermaid
+... код диаграммы ...
+```
+</pre>
+Пример:
+<pre>
+```mermaid
+erDiagram
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--|{ LINE-ITEM : contains
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+```
+</pre>
+```mermaid
+erDiagram
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--|{ LINE-ITEM : contains
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+```
+Очень подробно на русском языке о диаграммах Mermaid.js: https://habr.com/ru/post/652867/ 
+
+[:arrow_up:Оглавление](#Оглавление) 
+____
+
+
+Помимо всего прочего, можно добавить анимированный текст с эффектом печати. В репозитории проекта есть подробная инструкция по настройке блока и советы по развертыванию приложения на собственном сервере. Также разработчик сделал веб-интерфейс для настройки — можно указать все необходимые параметры, а сервис выдаст готовый код для встраивания.
+
+<!---Пример кода-->
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Computer+science+student)](https://git.io/typing-svg)
+____
+Оформляется Заголовок
+
+<h1 align="center">Hi there, I'm <a href="https://daniilshat.ru/" target="_blank">Daniil</a> 
+<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
+<h3 align="center">Computer science student, IT news writer from Russia 🇷🇺</h3>
+Можно сделать с помощью Markdown, но тогда не получится выровнять текст по центру и будут сложности с гифкой — в Markdown не предусмотрены теги для указания размеров изображения:
+
+# Hi there, I'm [Daniil](https://daniilshat.ru/) ![](https://github.com/blackcater/blackcater/raw/main/images/Hi.gif) 
+### Computer science student, IT news writer from Russia 🇷🇺
+
+
